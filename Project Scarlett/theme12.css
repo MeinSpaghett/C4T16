@@ -1,0 +1,164 @@
+body{
+	font-family: arial,serif;
+	font-size: 16px;
+	background-color: #FFFFFF;
+}
+ol,ul{
+	list-style: none;
+}
+#toanbo{
+	background-image: url(234.jpg);
+	width: 1200px;
+	margin: 0 auto;
+}
+#logo{
+	float: left;
+	width: 300px
+	height: 100px;
+	background-color: #FFFFFF;
+}
+#ngulol {
+	/*float: left;*/
+	
+	width: 1200px;
+	height: 104px;
+	background-color: #FFFFFF;
+}
+
+#timkiem{
+	background-color: #FF8888;
+	width: 100%;
+	height: 35px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*dobong*/
+}
+
+#timkiem ul li{
+float: left;
+width: 185px;
+height: 35px;
+text-align: center;
+border-left: 1px solid #FF6666;
+border-right: 1px solid #FF6666;
+line-height: 35px;
+}
+#timkiem a{
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+#timkiem a:hover{
+font-size: 20px;
+background-size: 145px;}
+#timkiem :hover{
+	background-color: #FF6666;
+}
+
+#ngulol a{
+	text-decoration: none;
+	font-size: 15px;
+	color:#FF6666; 
+}
+#ngulol .mo{font-size: 15px;
+	color:#FF6666;}
+#ngulol .mn :hover{text-decoration: underline; }
+
+#ngulol li{
+float: right;
+width: 230px;
+height: 15px;
+text-align: right;
+}
+.container{
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+div#banner
+{
+	overflow: hidden;
+}
+#banner figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 30s slidy infinite;
+}
+#banner figure img
+{
+	width: 20%;
+	float:left; 
+}
+@keyframes slity {
+	0%{
+		left: 0%;
+	}
+	20%{
+		left: 0%;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+#spacer{
+	margin: 0;
+	width: auto;
+	height: 70px;
+	background-color: #FF7777;
+	position: relative;
+	font-family: 'Open sans',sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	box-shadow:  0px 2px 2px rgba(0,0,0,0.5);
+}
+
+#spacer p {
+	margin-top: 22px;
+	width: auto;
+	position: absolute;
+	left: 30%;
+	margin-left: -150px;
+}
+.search{
+	margin-top: 25px;
+	width: auto;
+	position: absolute;
+	right: 50%;
+	margin-right: -500px;
+}
+.xam {
+	width: auto;
+	height: 400px;}
+
+a:link,a:visited,a:active{color:#e24444;text-decoration:none}
+a:hover,a:focus{text-decoration:none;text-shadow:0 0 8px #FF6666;outline:0}
+a.btn:hover{color:#fff!important}
+
+img{max-width:100%}
+
+.clear{clear:both}
+.column{float:left}
+.col-33x{width:33.33333333333%}
+.product-box{ text-align: center;padding:10px}
+.product-box img{max-height:250px;}

@@ -1,0 +1,15 @@
+#sanpham{
+	color: #991212;
+	font-size: 20px;
+	width: 1200px;
+	margin: 0 auto;
+}
+#sanpham a{
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #b73c3c;
+	
+}
+#sanpham a:hover{
+
+background-color:#991212;}
