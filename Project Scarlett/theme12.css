@@ -161,6 +161,7 @@ img{max-width:100%}
 .column{float:left}
 .col-33x{width:33.33333333333%}
 .product-box{ text-align: center;padding:10px}
+<<<<<<< HEAD
 .product-box img{max-height:250px;}
 .footer{
     background-color: black;
@@ -361,3 +362,6 @@ i {
   from {opacity: 0;}
   to {opacity:5 ;}
 }
+=======
+.product-box img{max-height:250px;}
+>>>>>>> 5e92df9c606361c2e7b61881a2ce7e522438bdf2
