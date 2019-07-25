@@ -1,0 +1,363 @@
+body{
+	font-family: arial,serif;
+	font-size: 16px;
+	background-color: #FFFFFF;
+}
+ol,ul{
+	list-style: none;
+}
+#toanbo{
+	background-image: url(234.jpg);
+	width: 1200px;
+	margin: 0 auto;
+}
+#logo{
+	float: left;
+	width: 300px
+	height: 100px;
+	background-color: #FFFFFF;
+}
+#ngulol {
+	/*float: left;*/
+	
+	width: 1200px;
+	height: 104px;
+	background-color: #FFFFFF;
+}
+
+#timkiem{
+	background-color: #FF8888;
+	width: 100%;
+	height: 35px;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*dobong*/
+}
+
+#timkiem ul li{
+float: left;
+width: 185px;
+height: 35px;
+text-align: center;
+border-left: 1px solid #FF6666;
+border-right: 1px solid #FF6666;
+line-height: 35px;
+}
+#timkiem a{
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+#timkiem a:hover{
+font-size: 20px;
+background-size: 145px;}
+#timkiem :hover{
+	background-color: #FF6666;
+}
+
+#ngulol a{
+	text-decoration: none;
+	font-size: 15px;
+	color:#FF6666; 
+}
+#ngulol .mo{font-size: 15px;
+	color:#FF6666;}
+#ngulol .mn :hover{text-decoration: underline; }
+
+#ngulol li{
+float: right;
+width: 230px;
+height: 15px;
+text-align: right;
+}
+.container{
+	width: auto;
+	margin: 0 auto;
+	position: relative;
+}
+
+div#banner
+{
+	overflow: hidden;
+}
+#banner figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 30s slidy infinite;
+}
+#banner figure img
+{
+	width: 20%;
+	float:left; 
+}
+@keyframes slity {
+	0%{
+		left: 0%;
+	}
+	20%{
+		left: 0%;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -400%;
+	}
+}
+#spacer{
+	margin: 0;
+	width: auto;
+	height: 70px;
+	background-color: #FF7777;
+	position: relative;
+	font-family: 'Open sans',sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	box-shadow:  0px 2px 2px rgba(0,0,0,0.5);
+}
+
+#spacer p {
+	margin-top: 22px;
+	width: auto;
+	position: absolute;
+	left: 30%;
+	margin-left: -150px;
+}
+.search{
+	margin-top: 25px;
+	width: auto;
+	position: absolute;
+	right: 50%;
+	margin-right: -500px;
+}
+.xam {
+	width: auto;
+	height: 400px;}
+
+a:link,a:visited,a:active{color:#e24444;text-decoration:none}
+a:hover,a:focus{text-decoration:none;text-shadow:0 0 8px #FF6666;outline:0}
+a.btn:hover{color:#fff!important}
+
+img{max-width:100%}
+
+.clear{clear:both}
+.column{float:left}
+.col-33x{width:33.33333333333%}
+.product-box{ text-align: center;padding:10px}
+.product-box img{max-height:250px;}
+.footer{
+    background-color: black;
+    width: 1245px;
+    height: 300px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.chua{
+    margin: 0px 10px 0px 30px;
+    width: 1190px;
+    height: 200px;
+    /* background-color:lawngreen; */
+    display:flex;
+    justify-content: space-around;
+}
+
+.icon{
+    /* display:flex; */
+    font-size: 20px;
+    color: #6200EE;
+    /* justify-content: flex-end; */
+}
+.cot3{
+    position: relative;
+    display: inline-block;
+}
+.content{
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: #F50057;
+}
+.cot3:hover .content{
+    display:block;
+}
+
+/* .trigger {
+    position: relative;
+    background: #007ee5;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    border-radius: 50em;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .2);
+    }
+
+span,
+em,
+i {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+    span {
+    overflow: hidden;
+    }
+
+em,
+i {
+    transition: top .3s;
+}
+
+em {
+    top: 0;
+    line-height: 60px;
+}
+
+i {
+    top: 100%;
+    background: url(https://cdn3.iconfinder.com/data/icons/popular-services-1/512/dropbox-48.png) no-repeat center center;
+}
+
+.trigger:hover em {
+    top: -100%;
+}
+
+.trigger:hover i {
+    top: 0;
+}
+
+.trigger::before,
+.trigger::after {
+    position: absolute;
+    opacity: 0;
+    transition: all .3s;
+    visibility: hidden;
+}
+
+.trigger::before {
+    content: "File Size: 50MB";
+    position: absolute;
+    width: 140px;
+    height: 60px;
+    background: #E58B00;
+    border-radius: .25em;
+    line-height: 60px;
+    bottom: 90px;
+    left: calc(50% - 70px);
+}
+
+.trigger:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 10px solid #333;
+    border-top-color: #E58B00;
+    left: calc(50% - 10px);
+    bottom: 70px;
+}
+
+.trigger:hover::before,
+.trigger:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.trigger:hover::before {
+    bottom: 80px;
+}
+
+.trigger:hover::after {
+    bottom: 60px;
+}  */
+
+#cfacebook {
+    position: fixed;
+    bottom: 25%;
+    right: -250px;
+    z-index: 99999;
+    height: auto;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    overflow: hidden;
+    font-size: 10px;
+
+}
+.popup {
+    position: fixed;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    right: 40px;
+    margin-left: 30px;
+    font-size: 15px;
+    margin-top: px;
+  }
+  
+  /* Popup arrow */
+/* .popup .popuptext::after {
+    content: "Hỗ trợ mua hàng ";
+    position: absolute;
+    font-size: 22px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -82px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(94, 8, 128) transparent transparent transparent;
+    background-color: rgb(72, 14, 105);
+  } */
+  
+.popup .show {
+    visibility: inherit;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s
+  }
+  
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 5;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:5 ;}
+}
